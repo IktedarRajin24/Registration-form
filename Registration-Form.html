@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+
+	<style>
+		p.groove {
+			border-style: groove;
+			
+		}
+	</style>
+</head>
+<body>
+	<h1>Registration Form</h1>
+
+	<form>
+		<fieldset><legend>Basic Information</legend>
+		<p>
+			<label for="Name">Enter your name:</label>
+			<input type="text" name="name" id="Name">
+			<br>
+
+			<label>Gender:</label>
+			<input type="radio" name="gender" id="male" value="male">
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="female" value="female">
+			<label for="female">Female</label>
+			<br>
+
+			<label for="birthday">Date Of Birth:</label>
+			<input type="date" id="dateOfBirth" name="dateOfBirth">
+			<br>
+
+			<label for="religion">Religion:</label>
+
+				<select name="religion" id="religion">
+					<option></option>
+  					<option value="Muslim">Muslim</option>
+  					<option value="Hindu">Hindu</option>
+  					<option value="Buddhist">Buddhist</option>
+  					<option value="Christian">Christian</option>
+				</select>
+				<br>
+
+
+			<label for="Name">Enter your Father's name:</label>
+			<input type="text" name="Father'sname" id="fName">
+			<br>
+
+			<label for="Name">Enter your Mother's name:</label>
+			<input type="text" name="Mother'sname" id="mName">
+			<br>
+		</p>
+		</fieldset>
+
+		<fieldset><legend>Contact Information</legend>
+		<p>
+			<label for="Address">Present Address:</label>
+			<input type="text" name="preAddress" id="Address">
+			<br>
+
+			<label for="Address">Pemanent Address:</label>
+			<input type="text" name="perAddress" id="Address">
+			<br>
+
+			<label for="Phone Number">Phone Number:</label>
+			<input type="tel" name="phoneNo" id="phoneNo">
+			<br>
+
+			<label for="E-main">E-mail:</label>
+			<input type="email" name="E-mail" id="E-mail">
+			<br>
+
+
+			<label for="link">Add you personal webpage link:</label>
+            <input type="url" id="link" name="link">
+			<br>
+		</p>
+		</fieldset>
+
+		<fieldset><legend>Contact Information</legend>
+		<p>
+			<label for="sscyear">SSC Year:</label>
+			<input type="Number" name="sscyear" id="sscyear">
+			<br>
+
+			<label for="sscinstitution">SSC Institution:</label>
+			<input type="text" name="sscinstitution" id="sscinstitution">
+			<br>
+
+			<label for="hscyear">HSC Year:</label>
+			<input type="Number" name="hscyear" id="hscyear">
+			<br>
+
+			<label for="hscinstitution">HSC Institution:</label>
+			<input type="text" name="hscinstitution" id="hscinstitution">
+			<br>
+
+			
+		</p>
+		</fieldset>
+	</form>
+
+</body>
+</html>
